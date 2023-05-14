@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="classes" thread-count="3">
+  <test name="Test">
+    <classes>
+      <class name="framework.library.TestCase"/>
+      <class name="testscripts.scenario1.TC1"/>
+      <class name="testscripts.scenario1.TC2"/>
+      <class name="testscripts.scenario1.TC3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
